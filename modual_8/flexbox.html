@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .contain{
+            height: 500px;
+            display: flex;
+            /* justify-content: center; */
+            border: 2px dotted slategray;
+            /* justify-content: flex-end; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            /* justify-content: space-around; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* align-items: stretch; */
+        }
+        .box{
+            width: 200px;
+            /* height: 200px; */
+            border: 3px dashed rebeccapurple;
+            font-size: 3em;
+        }
+        #box-2{
+            order: 2;
+        }
+        #box-3{
+            order: 1;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>I am flexbol rigth now</h1>
+    <div class="contain">
+        <div class="box">BOX-1</div>
+        <div id="box-2" class="box">BOX-2</div>
+        <div id="box-3" class="box">BOX-3</div>
+
+    </div>
+</body>
+</html>

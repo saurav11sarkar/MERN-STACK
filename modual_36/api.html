@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="container m-auto">
+    <header>
+        <nav class="container m-auto">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <a class="btn"><img src="86-PHero-tube/Logo.png" alt=""></a>
+                </div>
+                <div class="navbar-center lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><button class="btn">Sort by view</button></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn bg-red-500">Blog</a>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <div class="container m-auto">
+        <hr>
+    </div>
+
+    <main class="mt-4">
+      <div class="flex flex-row gap-3 justify-center items-center">
+        <button onclick="api('1000')" class="bg-red-500 btn text-white px-8">All</button>
+        <button onclick="api('1001')" class="bg-red-500 btn text-white px-8">Music</button>
+        <button onclick="api('1003')" class="bg-red-500 btn text-white px-8">Comedy</button>
+        <button onclick="api('1005')" class="bg-red-500 btn text-white px-8">Drawin</button>
+      </div>
+
+      <section class="mt-4">
+        <div id="allCato" class="grid md:grid-cols-3 lg:grid-cols-4 gap-3 justify-center items-center  justify-items-center">
+
+        </div>
+        <div id="empty"></div>
+      </section>
+    </main>
+
+    <section>
+
+    </section>
+
+    
+    <script src="api.js"></script>
+</body>
+</html>

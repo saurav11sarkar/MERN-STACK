@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section class="mt-8">
+        <div class="bg-violet-500 w-3/4 mx-auto rounded p-8">
+
+            <h1 class="text-4xl font-bold mb-3 text-white">Price: <span class="text-lime-300" id="price">2000</span></h1>
+
+            <span class="text-4xl font-bold mb-3 text-white">Cuppon: </span><input id="cuppon" class="py-2 rounded px-2 w-3/5" type="text" placeholder="Coupont code">
+
+            <button class="block bg-amber-400 hover:bg-amber-500 text-white px-5 py-2 text-2xl mt-2 mx-auto rounded-lg font-semibold" id="btn-apply">Appaly</button>
+
+            <h1 class="text-4xl font-bold mt-3 text-white">Please Pay: <span class="text-lime-300" id="discount-Price">000</span></h1>
+        </div>
+    </section>
+
+    <script type="module" src="discount.js"></script>
+</body>
+</html>

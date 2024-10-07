@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .swimming{
+            position: relative;
+        }
+        .swimming div{
+            border: 1px solid palevioletred;
+            width: 200px;
+        }
+        #boy{
+          position: relative;
+          top: 75px;  
+          z-index: 2;
+        }
+        #ring{
+            /* position: absolute; */
+            /* position: sticky; */
+            /* position: fixed; */
+            position: relative;
+            z-index: 1;
+            left: 0px;
+            top: 0px;
+        }
+        #water{
+            position: relative;
+            top: -75px;
+        }
+        .dummy{
+            height: 150px;
+            width: 200px;
+            background-color: pink
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>This my header</h1>
+        <h1>I am learning position</h1>
+        <h2>I have a higher position</h2>
+    </section>
+    <section class="swimming">
+        <div id="boy"><img src="images/boy.svg" alt=""></div>
+        <div id="ring"><img src="images/ring.svg" alt=""></div>
+        <div id="water"><img src="images/water.svg" alt=""></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </section>
+    <section>
+        <h2>This is separete</h2>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </section>
+</body>
+</html>

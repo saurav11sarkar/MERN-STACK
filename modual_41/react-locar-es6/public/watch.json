@@ -1,0 +1,702 @@
+[
+    {
+        "id": 1,
+        "brand": "Apple",
+        "model": "Apple Watch Series 9",
+        "display": "1.9-inch Retina LTPO OLED",
+        "batteryLife": "18 hours",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "ECG",
+            "Blood Oxygen Sensor"
+        ],
+        "price": 399
+    },
+    {
+        "id": 2,
+        "brand": "Samsung",
+        "model": "Galaxy Watch 6",
+        "display": "1.4-inch Super AMOLED",
+        "batteryLife": "40 hours",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "Blood Pressure Monitor",
+            "Sleep Tracking"
+        ],
+        "price": 349
+    },
+    {
+        "id": 3,
+        "brand": "Garmin",
+        "model": "Fenix 7",
+        "display": "1.3-inch MIP",
+        "batteryLife": "18 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "Pulse Oximeter",
+            "Altimeter"
+        ],
+        "price": 699
+    },
+    {
+        "id": 4,
+        "brand": "Fitbit",
+        "model": "Versa 4",
+        "display": "1.58-inch AMOLED",
+        "batteryLife": "6 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "Sleep Tracking",
+            "Stress Management"
+        ],
+        "price": 229
+    },
+    {
+        "id": 5,
+        "brand": "Amazfit",
+        "model": "GTR 4",
+        "display": "1.43-inch AMOLED",
+        "batteryLife": "14 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "Blood Oxygen Sensor",
+            "Sleep Monitoring"
+        ],
+        "price": 179
+    },
+    {
+        "id": 6,
+        "brand": "Huawei",
+        "model": "Watch GT 3",
+        "display": "1.43-inch AMOLED",
+        "batteryLife": "14 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "SpO2",
+            "Sleep Tracking"
+        ],
+        "price": 249
+    },
+    {
+        "id": 7,
+        "brand": "Fossil",
+        "model": "Gen 6",
+        "display": "1.28-inch AMOLED",
+        "batteryLife": "24 hours",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "Sleep Tracking",
+            "NFC"
+        ],
+        "price": 299
+    },
+    {
+        "id": 8,
+        "brand": "TicWatch",
+        "model": "Pro 3 Ultra",
+        "display": "1.4-inch AMOLED + FSTN",
+        "batteryLife": "45 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "Blood Oxygen Sensor",
+            "Sleep Tracking"
+        ],
+        "price": 299
+    },
+    {
+        "id": 9,
+        "brand": "Suunto",
+        "model": "9 Peak",
+        "display": "1.2-inch Transflective",
+        "batteryLife": "25 hours",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "Barometer",
+            "Sleep Tracking"
+        ],
+        "price": 569
+    },
+    {
+        "id": 10,
+        "brand": "Coros",
+        "model": "Pace 2",
+        "display": "1.2-inch MIP",
+        "batteryLife": "20 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "Sleep Tracking",
+            "Altimeter"
+        ],
+        "price": 199
+    },
+    {
+        "id": 11,
+        "brand": "Withings",
+        "model": "ScanWatch",
+        "display": "PMOLED",
+        "batteryLife": "30 days",
+        "features": [
+            "Heart Rate Monitor",
+            "ECG",
+            "SpO2",
+            "Sleep Tracking"
+        ],
+        "price": 279
+    },
+    {
+        "id": 12,
+        "brand": "Polar",
+        "model": "Vantage V2",
+        "display": "1.2-inch MIP",
+        "batteryLife": "40 hours",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "Running Power",
+            "Sleep Tracking"
+        ],
+        "price": 499
+    },
+    {
+        "id": 13,
+        "brand": "Amazfit",
+        "model": "T-Rex 2",
+        "display": "1.39-inch AMOLED",
+        "batteryLife": "24 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "SpO2",
+            "Sleep Tracking"
+        ],
+        "price": 229
+    },
+    {
+        "id": 14,
+        "brand": "Garmin",
+        "model": "Venu 2 Plus",
+        "display": "1.3-inch AMOLED",
+        "batteryLife": "9 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "SpO2",
+            "Voice Assistant"
+        ],
+        "price": 449
+    },
+    {
+        "id": 15,
+        "brand": "Mobvoi",
+        "model": "TicWatch E3",
+        "display": "1.3-inch AMOLED",
+        "batteryLife": "72 hours",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "SpO2",
+            "Sleep Tracking"
+        ],
+        "price": 199
+    },
+    {
+        "id": 16,
+        "brand": "Samsung",
+        "model": "Galaxy Watch 5 Pro",
+        "display": "1.4-inch Super AMOLED",
+        "batteryLife": "80 hours",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "Body Composition",
+            "Sleep Tracking"
+        ],
+        "price": 449
+    },
+    {
+        "id": 17,
+        "brand": "Fossil",
+        "model": "Hybrid HR",
+        "display": "E-Ink",
+        "batteryLife": "14 days",
+        "features": [
+            "Heart Rate Monitor",
+            "Sleep Tracking",
+            "Notifications",
+            "Activity Tracking"
+        ],
+        "price": 199
+    },
+    {
+        "id": 18,
+        "brand": "Garmin",
+        "model": "Forerunner 955",
+        "display": "1.3-inch MIP",
+        "batteryLife": "15 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "SpO2",
+            "Multi-Band GPS"
+        ],
+        "price": 499
+    },
+    {
+        "id": 19,
+        "brand": "Apple",
+        "model": "Apple Watch SE 2",
+        "display": "1.78-inch Retina LTPO OLED",
+        "batteryLife": "18 hours",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "Fall Detection",
+            "Swimproof"
+        ],
+        "price": 249
+    },
+    {
+        "id": 20,
+        "brand": "Huawei",
+        "model": "Watch Fit 2",
+        "display": "1.64-inch AMOLED",
+        "batteryLife": "10 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "SpO2",
+            "Sleep Tracking"
+        ],
+        "price": 179
+    },
+    {
+        "id": 21,
+        "brand": "Amazfit",
+        "model": "Bip U Pro",
+        "display": "1.43-inch TFT",
+        "batteryLife": "9 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "SpO2",
+            "Sleep Tracking"
+        ],
+        "price": 69
+    },
+    {
+        "id": 22,
+        "brand": "Garmin",
+        "model": "Instinct 2",
+        "display": "1.27-inch MIP",
+        "batteryLife": "28 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "SpO2",
+            "Military Standard Durability"
+        ],
+        "price": 349
+    },
+    {
+        "id": 23,
+        "brand": "Fitbit",
+        "model": "Sense 2",
+        "display": "1.58-inch AMOLED",
+        "batteryLife": "6 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "ECG",
+            "EDA Sensor"
+        ],
+        "price": 299
+    },
+    {
+        "id": 24,
+        "brand": "TicWatch",
+        "model": "C2 Plus",
+        "display": "1.3-inch AMOLED",
+        "batteryLife": "48 hours",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "NFC",
+            "Sleep Tracking"
+        ],
+        "price": 199
+    },
+    {
+        "id": 25,
+        "brand": "Garmin",
+        "model": "Vivoactive 4",
+        "display": "1.3-inch MIP",
+        "batteryLife": "8 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "SpO2",
+            "Sleep Tracking"
+        ],
+        "price": 329
+    },
+    {
+        "id": 26,
+        "brand": "Suunto",
+        "model": "7",
+        "display": "1.39-inch AMOLED",
+        "batteryLife": "12 hours",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "Offline Maps",
+            "Sleep Tracking"
+        ],
+        "price": 499
+    },
+    {
+        "id": 27,
+        "brand": "Garmin",
+        "model": "Enduro 2",
+        "display": "1.4-inch MIP",
+        "batteryLife": "50 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "Solar Charging",
+            "SpO2"
+        ],
+        "price": 899
+    },
+    {
+        "id": 28,
+        "brand": "Mobvoi",
+        "model": "TicWatch Pro 3",
+        "display": "1.4-inch AMOLED + FSTN",
+        "batteryLife": "45 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "SpO2",
+            "Sleep Tracking"
+        ],
+        "price": 299
+    },
+    {
+        "id": 29,
+        "brand": "Apple",
+        "model": "Apple Watch Ultra",
+        "display": "2.0-inch Retina LTPO OLED",
+        "batteryLife": "36 hours",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "Depth Gauge",
+            "Sirene"
+        ],
+        "price": 799
+    },
+    {
+        "id": 30,
+        "brand": "Samsung",
+        "model": "Galaxy Watch 4 Classic",
+        "display": "1.36-inch Super AMOLED",
+        "batteryLife": "40 hours",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "Body Composition",
+            "ECG"
+        ],
+        "price": 399
+    },
+    {
+        "id": 31,
+        "brand": "Amazfit",
+        "model": "Zepp Z",
+        "display": "1.39-inch AMOLED",
+        "batteryLife": "15 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "SpO2",
+            "Sleep Tracking"
+        ],
+        "price": 349
+    },
+    {
+        "id": 32,
+        "brand": "Garmin",
+        "model": "Tactix Delta",
+        "display": "1.4-inch MIP",
+        "batteryLife": "21 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "Military Standard Durability",
+            "Night Vision"
+        ],
+        "price": 899
+    },
+    {
+        "id": 33,
+        "brand": "Fitbit",
+        "model": "Inspire 3",
+        "display": "0.72-inch PMOLED",
+        "batteryLife": "10 days",
+        "features": [
+            "Heart Rate Monitor",
+            "Sleep Tracking",
+            "Stress Management",
+            "Activity Tracking"
+        ],
+        "price": 99
+    },
+    {
+        "id": 34,
+        "brand": "Garmin",
+        "model": "Forerunner 245",
+        "display": "1.2-inch MIP",
+        "batteryLife": "7 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "SpO2",
+            "Music Storage"
+        ],
+        "price": 299
+    },
+    {
+        "id": 35,
+        "brand": "Fossil",
+        "model": "Sport",
+        "display": "1.2-inch AMOLED",
+        "batteryLife": "24 hours",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "NFC",
+            "Swimproof"
+        ],
+        "price": 199
+    },
+    {
+        "id": 36,
+        "brand": "Amazfit",
+        "model": "GTS 4",
+        "display": "1.75-inch AMOLED",
+        "batteryLife": "8 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "SpO2",
+            "Sleep Tracking"
+        ],
+        "price": 199
+    },
+    {
+        "id": 37,
+        "brand": "Coros",
+        "model": "Apex Pro",
+        "display": "1.2-inch MIP",
+        "batteryLife": "30 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "SpO2",
+            "Altimeter"
+        ],
+        "price": 499
+    },
+    {
+        "id": 38,
+        "brand": "Huawei",
+        "model": "Watch GT Runner",
+        "display": "1.43-inch AMOLED",
+        "batteryLife": "14 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "SpO2",
+            "AI Running Coach"
+        ],
+        "price": 299
+    },
+    {
+        "id": 39,
+        "brand": "Suunto",
+        "model": "9 Baro",
+        "display": "1.39-inch MIP",
+        "batteryLife": "120 hours",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "Barometer",
+            "SpO2"
+        ],
+        "price": 599
+    },
+    {
+        "id": 40,
+        "brand": "Fitbit",
+        "model": "Charge 5",
+        "display": "1.04-inch AMOLED",
+        "batteryLife": "7 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "SpO2",
+            "ECG"
+        ],
+        "price": 179
+    },
+    {
+        "id": 41,
+        "brand": "Garmin",
+        "model": "Venu Sq 2",
+        "display": "1.4-inch AMOLED",
+        "batteryLife": "11 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "SpO2",
+            "Sleep Tracking"
+        ],
+        "price": 249
+    },
+    {
+        "id": 42,
+        "brand": "Amazfit",
+        "model": "GTR 3 Pro",
+        "display": "1.45-inch AMOLED",
+        "batteryLife": "12 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "SpO2",
+            "Sleep Tracking"
+        ],
+        "price": 229
+    },
+    {
+        "id": 43,
+        "brand": "Garmin",
+        "model": "Descent Mk2i",
+        "display": "1.4-inch MIP",
+        "batteryLife": "16 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "Dive Computer",
+            "SpO2"
+        ],
+        "price": 1499
+    },
+    {
+        "id": 44,
+        "brand": "Fossil",
+        "model": "Gen 5E",
+        "display": "1.19-inch AMOLED",
+        "batteryLife": "24 hours",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "NFC",
+            "Sleep Tracking"
+        ],
+        "price": 249
+    },
+    {
+        "id": 45,
+        "brand": "Samsung",
+        "model": "Galaxy Watch 3",
+        "display": "1.4-inch Super AMOLED",
+        "batteryLife": "56 hours",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "ECG",
+            "Fall Detection"
+        ],
+        "price": 399
+    },
+    {
+        "id": 46,
+        "brand": "Mobvoi",
+        "model": "TicWatch S2",
+        "display": "1.39-inch AMOLED",
+        "batteryLife": "2 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "Military Standard Durability",
+            "Swimproof"
+        ],
+        "price": 179
+    },
+    {
+        "id": 47,
+        "brand": "Garmin",
+        "model": "Approach S62",
+        "display": "1.3-inch MIP",
+        "batteryLife": "14 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "Golf Course Maps",
+            "Virtual Caddie"
+        ],
+        "price": 499
+    },
+    {
+        "id": 48,
+        "brand": "Fitbit",
+        "model": "Luxe",
+        "display": "0.76-inch AMOLED",
+        "batteryLife": "5 days",
+        "features": [
+            "Heart Rate Monitor",
+            "Sleep Tracking",
+            "Stress Management",
+            "Activity Tracking"
+        ],
+        "price": 149
+    },
+    {
+        "id": 49,
+        "brand": "Amazfit",
+        "model": "Bip S",
+        "display": "1.28-inch Transflective",
+        "batteryLife": "40 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "Sleep Tracking",
+            "Swimproof"
+        ],
+        "price": 69
+    },
+    {
+        "id": 50,
+        "brand": "Garmin",
+        "model": "Forerunner 945",
+        "display": "1.2-inch MIP",
+        "batteryLife": "14 days",
+        "features": [
+            "GPS",
+            "Heart Rate Monitor",
+            "SpO2",
+            "Music Storage"
+        ],
+        "price": 599
+    }
+]

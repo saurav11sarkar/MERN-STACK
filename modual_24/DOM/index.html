@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .fruits-container li{
+            color: tomato;
+        }
+        #fruits-title{
+           color: black; 
+        }
+        .important-places{
+           color: blueviolet; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my DOM</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ut atque sit accusamus qui, aspernatur, repellendus, doloremque quo rerum similique placeat minima aliquam quaerat porro perspiciatis est voluptatem. Esse, tempora.</p>
+    </header>
+    <main id="main-contain">
+        <section id="plases-container">
+            <h1 >My Asesome DOM de baba</h1>
+            <ul id="places-list">
+                <li>Jalali set</li>
+                <li>Shafayet</li>
+                <li>bonobash</li>
+                <li>DOM de re baba</li>
+            </ul>
+        </section>
+        <section class="fruits-container large-font">
+            <h1 id="fruits-title" class="sample-tital">Fruits I like</h1>
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Carrot</li>
+            </ul>
+        </section>
+        <section>
+            <h1>Fruits I like</h1>
+            <ul>
+                <li class="important-places">Sunderbon</li>
+                <li class="important-places">Banderbon</li>
+                <li class="important-places">Katabon</li>
+                <li>Shalbon</li>
+            </ul>
+        </section>
+
+    </main>
+    <script src="dom.js"></script>
+    <script>
+        // const liCollection = document.getElementsByTagName('li');
+        // // console.log(liCollection);
+        // for(let i of liCollection){
+        //     console.log(i.innerText);
+        // }
+
+        // const places = document.getElementsByClassName('important-places');
+        // // console.log(places);
+        // for(const i of places){
+        //     console.log(i.innerText)
+        // }
+
+        // const frute = document.getElementById('fruits-title').innerText = 'Hello world';
+
+        // let tegName = document.getElementsByTagName('h1');
+        // console.log(tegName);
+
+        // let someLi = document.querySelectorAll('.fruits-container li');
+        // for(let i = 0; i < someLi.length; i++){
+        //     // if (i == 0){
+        //     //     console.log(someLi[i].innerText);
+        //     // }
+        //     console.log(someLi[i].innerText);
+        // }
+
+        // console.log(document.querySelector('.fruits-container li'));
+
+        // console.log(document.getElementById('fruits-title').style.color = 'red');
+        // console.log(document.getElementById('fruits-title').style.backgroundColor = 'yellow');
+        // console.log(document.getElementById('fruits-title').style.textAlign = 'center');
+
+        // const tital = document.getElementById('fruits-title')
+        // console.log(tital.getAttribute('class'));
+        // console.log(tital.classList);
+        // console.log(tital.classList.add('hi'));
+        // console.log(tital.classList);
+        // console.log(tital.classList.remove('hi'));
+        // console.log(tital.classList);
+        // console.log(tital.setAttribute('tital','tooltip set by javaScript'));
+        // console.log(document.getElementsByClassName('sample-tital')[0].innerHTML = '<h1> ABC DOM is change</h1>')
+        // console.log(document.getElementsByClassName('sample-tital')[0].innerHTML);
+
+    </script>
+    <script src="styleIn.js"></script>
+    <script src="appendChile.js"></script>
+</body>
+</html>

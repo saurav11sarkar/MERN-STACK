@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM Summary</title>
+</head>
+<body>
+    <h1>Final DOM Event Handlers</h1>
+    <h3 id="hendler-status">Default Text</h3>
+
+    <p id="input-text-display">Dafault Input text</p>
+    <input id="input-filed" type="text">
+    <button id="btn-update">updated</button>
+    <br><br>
+
+    <button onclick="hendleOneClick()">Handle Evently by add onclick function</button>
+    <button id="event-lisenter">Handle event by addEventListener</button>
+    
+    <script>
+        function hendleOneClick(){
+            const hendlerStatus = document.getElementById('hendler-status');
+            hendlerStatus.innerText = 'hendled by function attached on onclick attribute';
+        }
+
+        document.getElementById('event-lisenter').addEventListener('click',function(){
+            const hendlerStatus = document.getElementById('hendler-status');
+            hendlerStatus.innerText = 'Text updated by add even listenr button';
+        })
+
+        document.getElementById('btn-update').addEventListener('click',function (){
+            const inputFild = document.getElementById('input-filed');
+            const inputText = inputFild.value;
+            const p = document.getElementById('input-text-display');
+            p.innerText = inputText;
+            inputFild.value = '';
+        })
+
+        // ---------------26.5 state---
+    </script>
+</body>
+</html>

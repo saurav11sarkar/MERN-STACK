@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevent Delegate</title>
+</head>
+<body>
+    <h1>Explore Even Delegate</h1>
+    <section>
+        <ul id="list-container">
+            <li class="item">Lorem, ipsum dolor.</li>
+            <li class="item">Aliquam, magnam quis!</li>
+            <li class="item">Perspiciatis, voluptas in!</li>
+            <li class="item">Sit, perspiciatis numquam.</li>
+            <li class="item">Laboriosam, dolores minus?</li>
+            <li class="item">Quas, quis accusantium!</li>
+        </ul>
+        <button id="btn-add-item">Add Item</button>
+    </section>
+    <script>
+        // const item = document.getElementsByClassName('item');
+        // // console.log(item);
+        // for(let i = 0; i < item.length; i++){
+        //     item[i].addEventListener('click', function (even){
+        //        even.target.parentNode.removeChild(even.target);
+        //     });
+        // }
+
+        document.getElementById('list-container').addEventListener('click', function(even){
+            even.target.parentNode.removeChild(even.target);
+        });
+
+        document.getElementById('btn-add-item').addEventListener('click', function(){
+            const listContainer = document.getElementById('list-container');
+            const li = document.createElement('li');
+            li.innerText = 'Brand New Item added';
+            li.classList.add('item');
+            listContainer.appendChild(li);
+        });
+    </script>
+
+</body>
+</html>

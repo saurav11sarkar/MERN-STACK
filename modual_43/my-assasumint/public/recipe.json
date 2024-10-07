@@ -1,0 +1,102 @@
+[
+    {
+        "recipe_image": "https://images.unsplash.com/photo-1552914343-05ccdaf123d6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "recipe_id": "001",
+        "recipe_name": "Chicken Stir Fry",
+        "short_description": "A quick and easy chicken stir fry with vegetables.",
+        "ingredients": [
+            "550 g chicken",
+            "120 ml soy sauce",
+            "200 g broccoli",
+            "150 g bell pepper",
+            "100 g carrots",
+            "2 cloves garlic"
+        ],
+        "preparing_time": "30 min",
+        "calories": "320 calories"
+    },
+    {
+        "recipe_image": "https://images.unsplash.com/photo-1675169594106-a3898f9fe59d?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "recipe_id": "002",
+        "recipe_name": "Spaghetti Bolognese",
+        "short_description": "Classic Italian spaghetti with a rich Bolognese sauce.",
+        "ingredients": [
+            "400 g spaghetti",
+            "500 g minced beef",
+            "2 cloves garlic",
+            "800 g canned tomatoes",
+            "100 ml red wine",
+            "50 g parmesan cheese"
+        ],
+        "preparing_time": "45 min",
+        "calories": "450 calories"
+    },
+    {
+        "recipe_image": "https://images.unsplash.com/photo-1666083580269-6f409e1765d8?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "recipe_id": "003",
+        "recipe_name": "Vegan Curry",
+        "short_description": "A flavorful and spicy vegan curry with mixed vegetables.",
+        "ingredients": [
+            "400 g chickpeas",
+            "200 g spinach",
+            "100 g cauliflower",
+            "200 ml coconut milk",
+            "2 tbsp curry powder",
+            "1 onion",
+            "2 cloves garlic"
+        ],
+        "preparing_time": "35 min",
+        "calories": "290 calories"
+    },
+    {
+        "recipe_image": "https://plus.unsplash.com/premium_photo-1692193552392-93d422cfea86?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2xhc3NpYyUyMFBhbmNha2VzfGVufDB8fDB8fHww",
+        "recipe_id": "004",
+        "recipe_name": "Classic Pancakes",
+        "short_description": "Fluffy and delicious pancakes perfect for breakfast.",
+        "ingredients": [
+            "200 g flour",
+            "300 ml milk",
+            "2 eggs",
+            "50 g sugar",
+            "30 g butter",
+            "2 tsp baking powder",
+            "1 tsp vanilla extract"
+        ],
+        "preparing_time": "20 min",
+        "calories": "260 calories"
+    },
+    {
+        "recipe_image": "https://images.unsplash.com/photo-1512852939750-1305098529bf?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "recipe_id": "005",
+        "recipe_name": "Caesar Salad",
+        "short_description": "A fresh and crispy Caesar salad with homemade dressing.",
+        "ingredients": [
+            "300 g romaine lettuce",
+            "100 g croutons",
+            "50 g parmesan cheese",
+            "150 g chicken breast",
+            "3 tbsp Caesar dressing",
+            "1 lemon",
+            "1 garlic clove"
+        ],
+        "preparing_time": "15 min",
+        "calories": "220 calories"
+    },
+    {
+        "recipe_image": "https://images.unsplash.com/photo-1606101273945-e9eba91c0dc4?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8QmFuYW5hJTIwQnJlYWR8ZW58MHx8MHx8fDA%3D",
+        "recipe_id": "006",
+        "recipe_name": "Banana Bread",
+        "short_description": "Moist and flavorful banana bread with a hint of cinnamon.",
+        "ingredients": [
+            "3 ripe bananas",
+            "200 g flour",
+            "100 g sugar",
+            "2 eggs",
+            "50 g butter",
+            "1 tsp baking soda",
+            "1 tsp cinnamon"
+        ],
+        "preparing_time": "60 min",
+        "calories": "310 calories"
+    }
+]

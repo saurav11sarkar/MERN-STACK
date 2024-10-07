@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>summary</title>
+
+</head>
+<body>
+    <h1>Explore Dom Events</h1>
+    <button onclick="makeGreen()">Make Green</button>
+    <button id="makeYellow">Make yellow</button>
+    <br><br>
+    <input id="user-email" type="text">
+
+    <script>
+        makeGreen = () =>{
+            document.body.style.backgroundColor = 'green';
+        }
+
+        document.getElementById('makeYellow').addEventListener('click', function(){
+            document.body.style.backgroundColor = 'yellow';
+        });
+
+        document.getElementById('user-email').addEventListener('keyup', function(even){
+            console.log(even.target.value);
+        })
+    </script>
+</body>
+</html>

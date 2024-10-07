@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunting Phone API</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <header>
+        <h2 class="text-6xl text-center">Hunting Phone</h2>
+    </header>
+
+    <main class="container mx-auto mt-8">
+
+        <section class="bg-gray-100 p-4 m-2 rounded-md">
+            <div>
+                <!-- <input id="search" type="text" placeholder="search..." class="input input-bordered w-full max-w-xs" />
+
+                <button onclick="handalSearch()" class="btn btn-accent text-white">SEARCH</button> -->
+
+                <!-- anathar search fild -->
+                <input id="search-filed2" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                <button onclick="handleSearch2()" class="btn btn-primary text-white">SEARCH</button>
+
+            </div>
+        </section>
+
+     
+        <!-- search result -->
+        <section  class="">
+            <!-- spineer / loader -->
+            <div id="loading-spring" class="text-center my-40 hidden">
+                <span class="loading bg-primary loading-dots loading-lg"></span>
+            </div>
+
+            <div id="phone-container" class="grid grid-cols-1 md:grid-cols-2 gap-4 lg:grid-cols-3">
+            </div>
+
+            <!-- show All Button -->
+             <div id="show-all-container" class="hidden text-center my-4">
+                <button onclick="handleShowAll()" class="btn btn-accent">Show All</button>
+             </div>
+             
+        </section>
+
+        <!-- Show Detail modal -->
+         <div>
+            <button class="btn" onclick="my_modal_3.showModal()"></button>
+            <dialog id="my_modal_3" class="modal">
+            <div class="modal-box">
+                <form method="dialog">
+                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                </form>
+                <h3 id="phone-name" class="text-3xl font-bold"></h3>
+                <div id="show-detail-container" class="py-4"></div>
+            </div>
+            </dialog>
+         </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <!-- script -->
+     <script src="phone.js"></script>
+</body>
+</html>

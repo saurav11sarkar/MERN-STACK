@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Out</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <h1 class="bg-black text-white p-4 text-2xl font-bold text-center uppercase">setinterval() clearinterval()</h1>
+        </div>
+    </header>
+    <main class="container w-[50%] m-auto">
+        <section class="mt-28">
+
+            <div class="text-center text-sky-500 text-8xl font-bold rounded"><span id="number">0</span></div>
+
+            <div class="flex flex-row gap-4 items-center justify-center mt-10">
+
+                <div class="bg-sky-500 text-center text-white font-bold rounded px-16 py-6 text-2xl ">
+                    <button onclick="stateBtn()">Start</button>
+                </div>
+
+                <div class="bg-sky-500 text-center text-white font-bold rounded px-16 py-6 text-2xl">
+                    <button onclick="stopBtn()">Stop</button>
+                </div>
+
+                <div class="bg-sky-500 text-center text-white font-bold rounded px-16 py-6 text-2xl">
+                    <button onclick="resetBtn()">Reset</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <script src="getInterval.js"></script>
+</body>
+</html>

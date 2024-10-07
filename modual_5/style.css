@@ -1,0 +1,124 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+h1{
+    font-size: 40px;
+}
+/* hader section */
+.header{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+.half-width img{
+    width: 70%;
+    margin: 0;
+}
+.link-batton{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(rgb(227, 119, 119), rgb(215, 51, 87));
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.boder-item{
+    border-left: 4px solid rgb(200, 74, 74);
+    padding-left: 2%;
+}
+/* My mission */
+.mission{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+.mission-araya{
+    display: flex;
+    margin-bottom: 100px;
+}
+.mission-item{
+    width: 33%;
+    text-align: justify;
+}
+.card-1{
+    background-color: beige;
+    border-radius: 7px;
+    margin-right: 2%;
+    
+}
+.card-2{
+    background-color: darkgrey;
+    border-radius: 7px;
+}
+.card-3{
+    background-color: rgb(231, 188, 174);
+    border-radius: 7px;
+    margin-left: 2%;
+}
+.mission-item-img img{
+    width: 50%;
+    margin: 0;
+}
+.mission-item-text{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+/* Develop */
+.back-img{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 30%;
+}
+.half-width-pat{
+    width: 50%;
+}
+.half-width-pat img{
+    width: 70%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+.paddin{
+    padding-right: 5%;
+    text-align: justify;
+}
+
+/* Global Community */
+.global{
+    padding-left: 5%;
+    padding-right: 5%;
+    /* padding-top: 2%; */
+    text-align: justify;
+}
+.global-img{
+    background-image: url(images/shapes/shape-1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    
+}
+footer h1{
+    font-style: italic;
+}
+footer p{
+    font-size: small;
+    font-weight: 100;
+    
+}
