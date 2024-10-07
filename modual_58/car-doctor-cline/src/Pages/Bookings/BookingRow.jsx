@@ -11,6 +11,8 @@ const BookingRow = ({ booking, onDelete, handleUpdate }) => {
                 .then(data => {
                     if (data.deletedCount > 0) {
                         onDelete(id);
+
+                        
                     }
                 })
                 .catch(err => console.error('Error deleting booking:', err));
